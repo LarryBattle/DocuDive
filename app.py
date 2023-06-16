@@ -6,9 +6,7 @@ import json
 import time
 from datetime import datetime
 import sys
-sys.path.append('src')
-from DocuDive import loadModel, getResult
-
+from src.DocuDive import loadModel, getResult
 
 def model_fn():
     return loadModel()

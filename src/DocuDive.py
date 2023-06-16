@@ -16,7 +16,7 @@ model_path = os.environ.get('MODEL_PATH')
 model_n_ctx = os.environ.get('MODEL_N_CTX')
 target_source_chunks = int(os.environ.get('TARGET_SOURCE_CHUNKS',4))
 
-from constants import CHROMA_SETTINGS
+from src.constants import CHROMA_SETTINGS
 
 def loadModel():
     callbacks = []
